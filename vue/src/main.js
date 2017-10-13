@@ -3,6 +3,8 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import util from './assets/js/util.js'
+require('./assets/css/kefongui.css')
 
 Vue.config.productionTip = false
 
