@@ -10,7 +10,7 @@ var util = {
 		 */
 		empty:function(str)
 		{
-			return typeof(str) == 'undefined' || str == null || str == undefined || str == '';
+			return typeof(str) == 'undefined' || str == null || str == undefined || str == '' || JSON.stringify(str) === '{}';
 		},
 		/**
 		 * 设置或读取缓存
